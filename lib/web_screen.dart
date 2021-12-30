@@ -25,11 +25,11 @@ class _WebScreenState extends State<WebScreen> {
               //height: 50,
               height: MediaQuery.of(context).size.height * 0.30,
               width: MediaQuery.of(context).size.width * 0.30,
-              decoration: BoxDecoration(
-                  color: Colors.red,
+              decoration: const  BoxDecoration(
+                  color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(15.0)),
                 image: DecorationImage(
-                  image: AssetImage("assets/images/mor.jpg"),
+                  image: AssetImage("assets/images/mor.png"),
                   fit: BoxFit.fill
                 ),
                 boxShadow: [BoxShadow(color: Color(0xffCD020D),offset: Offset(0,3),blurRadius: 3.0)]
